@@ -1,0 +1,29 @@
+{
+  "name": "rendgen.css",
+  "version": "0.0.0",
+  "description": "Markup diagnosis tool.",
+  "authors": [
+    "Ivan Nikolić"
+  ],
+  "license": "MIT",
+  "main": "dist/rendgen.min.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "devDependencies": {
+    "suit-components-test": "~0.2.1"
+  },
+  "homepage": "https://github.com/niksy/rendgen.css",
+  "keywords": [
+    "markup",
+    "diagnosis",
+    "css"
+  ]
+}

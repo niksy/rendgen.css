@@ -1,0 +1,50 @@
+/*! rendgen.css 0.0.0 - Markup diagnosis tool. | Author: Ivan Nikolić, 2014 | License: MIT */
+/**
+ * =============================================================================
+ * Errors
+ * =============================================================================
+ */
+
+/**
+ * 1. There should be no empty elements.
+ * 2. Links should have filled `href` attributes.
+ * 3. Images should have (at least empty) `alt` atributes.
+ * 4. `form` should have `action` attribute.
+ * 5. `label` should have `for` attribute.
+ * 6. `textarea` should have `rows` and `cols` attribute.
+ */
+:empty, /* 1 */
+a[href=""], /* 2 */
+img:not([alt]), /* 3 */
+form:not([action]), /* 4 */
+label:not([for]), label[for=""] /* 5 */
+textarea:not([rows]), textarea:not([cols]) /* 6 */ {
+	outline:3px solid magenta;
+}
+
+/**
+ * =============================================================================
+ * Warnings
+ * =============================================================================
+ */
+
+/**
+ * 1. Check elements with `style` attribute.
+ * 2. Anchors should have proper `href` attributes.
+ * 3. Provide some content for `alt` attribute on `img` element.
+ * 4. Use `button` instead of `input`.
+ * 5. `tr` should be children of `thead`/`tfoot`/`tbody`, not `table`.
+ * 6. `tfoot` needs to come before `tbody`.
+ * 7. Include `cellpadding` and `cellspacing` for backwards compatibility.
+ * 8. Check for `scope` attribute on `th` elements.
+ */
+[style], /* 1 */
+a[href="#"], a[href^="javascript"], /* 2 */
+img[alt=""], /* 4 */
+input[type="button"], input[type="submit"], input[type="image"], /* 5 */
+table > tr, /* 6 */
+tbody + tfoot, /* 7 */
+table:not([cellpadding]), table:not([cellspacing]), /* 8 */
+th:not([scope]) /* 10 */ {
+	outline:3px solid cyan;
+}

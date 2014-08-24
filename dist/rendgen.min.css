@@ -1,0 +1,2 @@
+/*! rendgen.css 0.0.0 - Markup diagnosis tool. | Author: Ivan Nikolić, 2014 | License: MIT */
+:empty,a[href=""],form:not([action]),img:not([alt]),label:not([for]),label[for=""] textarea:not([rows]),textarea:not([cols]){outline:#ff00ff solid 3px}[style],a[href="#"],a[href^=javascript],img[alt=""],input[type=button],input[type=image],input[type=submit],table:not([cellpadding]),table:not([cellspacing]),table>tr,tbody+tfoot,th:not([scope]){outline:#0ff solid 3px}
