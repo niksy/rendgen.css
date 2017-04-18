@@ -1,4 +1,4 @@
-# rendgen-css
+# rendgen.css
 
 [![Build Status][ci-img]][ci] [![BrowserStack Status][browserstack-img]][browserstack]
 
@@ -35,7 +35,7 @@ Tested in IE9+ and all modern browsers.
 
 MIT © [Ivan Nikolić](http://ivannikolic.com)
 
-[ci]: https://travis-ci.org/niksy/rendgen-css
-[ci-img]: https://travis-ci.org/niksy/rendgen-css.svg?branch=master
+[ci]: https://travis-ci.org/niksy/rendgen.css
+[ci-img]: https://travis-ci.org/niksy/rendgen.css.svg?branch=master
 [browserstack]: https://www.browserstack.com/
-[browserstack-img]: https://www.browserstack.com/automate/badge.svg?badge_key=bkpVVVMrOHdDQjJJNC8vZzU0dXBzSk51YzRiMjlNeEhTRTBiVUJ2OW1HTT0tLXEvSFVJWno1dFdOanF3UXBtcTFFdnc9PQ==--85c631800300233f8613e9e5bab8641ba583923e
+[browserstack-img]: https://www.browserstack.com/automate/badge.svg?badge_key=VVRQRkpOZVgzUGdibXJMRXRPd21aRzR4YnNyQUFxaUxQVlRNTUNSNE5lWT0tLTdDQjQzTFpUbDhPSUpvclUwcWJtdUE9PQ==--75e81bf36385cd27ae60ffb43ed292a88930f831

@@ -40,7 +40,7 @@ if ( local ) {
 			browser: 'Chrome',
 			os: 'Windows',
 			'os_version': '7',
-			project: 'rendgen-css',
+			project: 'rendgen.css',
 			build: 'Integration (WebdriverIO)',
 			name: 'Chrome',
 			browserName: 'Chrome',
