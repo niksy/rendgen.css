@@ -1,8 +1,9 @@
+/* stylelint-disable */
+/* Too many specific rules so linting will always show errors */
+
 /**
- * Diagnostics CSS used to check if there’s something wrong with the markup.
- *
  * Magenta = error and should be fixed
- * Cyan    = warning and should be double-checked
+ * Cyan = warning and should be double-checked
  */
 
 /**
@@ -25,7 +26,7 @@ img:not([alt]), /* 3 */
 form:not([action]), /* 4 */
 label:not([for]), label[for=""] /* 5 */
 textarea:not([rows]), textarea:not([cols]) /* 6 */ {
-	outline:3px solid magenta;
+	outline: 3px solid magenta;
 }
 
 /**
@@ -52,5 +53,7 @@ table > tr, /* 6 */
 tbody + tfoot, /* 7 */
 table:not([cellpadding]), table:not([cellspacing]), /* 8 */
 th:not([scope]) /* 10 */ {
-	outline:3px solid cyan;
+	outline: 3px solid cyan;
 }
+
+/* stylelint-enable */
